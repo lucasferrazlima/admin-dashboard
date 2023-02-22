@@ -1,9 +1,10 @@
 body {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr 4.5fr;
     margin: 0;
+    font-family: "Source Sans Pro";
 }
 
 
@@ -12,13 +13,26 @@ body {
     grid-column: 1;
     grid-row: 1 / span 2;
     display: grid;
-    grid-template-columns: 1fr 10fr;
+    grid-template-columns: 30px 1fr;
     grid-template-rows: 80px repeat(10, 50px);
+    align-items: center;
+    justify-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #164e63;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .logo {
     grid-column: 1 / span 2;
     grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.sidebar div:hover, .sidebar i:hover {
+    cursor: pointer;
 }
 
 
