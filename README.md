@@ -4,4 +4,4 @@
 
 -----------------------
 
-This dashboard project was created in order to practice CSS positioning using both grid and flexbox.
+This dashboard project was created in order to practice CSS positioning using both grid and flexbox layout models.
